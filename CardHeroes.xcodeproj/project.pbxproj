@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		425ECEFA194A893A007607C3 /* Storyboard_ipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 425ECEF8194A893A007607C3 /* Storyboard_ipad.storyboard */; };
+		425ECF06194A9716007607C3 /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = 425ECEFF194A9716007607C3 /* Data.m */; };
+		425ECF07194A9716007607C3 /* DataDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 425ECF01194A9716007607C3 /* DataDataController.m */; };
+		425ECF08194A9716007607C3 /* DataDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 425ECF03194A9716007607C3 /* DataDetailViewController.m */; };
+		425ECF09194A9716007607C3 /* DataTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 425ECF05194A9716007607C3 /* DataTableViewCell.m */; };
+		425ECF0C194AA5BA007607C3 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 425ECF0B194AA5BA007607C3 /* DataViewController.m */; };
 		4280C8AA1934384600BA2570 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4280C8A91934384600BA2570 /* Foundation.framework */; };
 		4280C8AC1934384600BA2570 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4280C8AB1934384600BA2570 /* CoreGraphics.framework */; };
 		4280C8AE1934384600BA2570 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4280C8AD1934384600BA2570 /* UIKit.framework */; };
@@ -14,7 +20,6 @@
 		4280C8B61934384600BA2570 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4280C8B51934384600BA2570 /* main.m */; };
 		4280C8BA1934384600BA2570 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4280C8B91934384600BA2570 /* AppDelegate.m */; };
 		4280C8BD1934384600BA2570 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4280C8BB1934384600BA2570 /* Main_iPhone.storyboard */; };
-		4280C8C01934384600BA2570 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4280C8BE1934384600BA2570 /* Main_iPad.storyboard */; };
 		4280C8C31934384600BA2570 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4280C8C21934384600BA2570 /* ViewController.m */; };
 		4280C8C51934384600BA2570 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4280C8C41934384600BA2570 /* Images.xcassets */; };
 		4280C8CC1934384600BA2570 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4280C8CB1934384600BA2570 /* XCTest.framework */; };
@@ -22,6 +27,11 @@
 		4280C8CE1934384600BA2570 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4280C8AD1934384600BA2570 /* UIKit.framework */; };
 		4280C8D61934384600BA2570 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4280C8D41934384600BA2570 /* InfoPlist.strings */; };
 		4280C8D81934384600BA2570 /* CardHeroesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4280C8D71934384600BA2570 /* CardHeroesTests.m */; };
+		42A9317C19375D7D007A2AC5 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A9317B19375D7D007A2AC5 /* GameViewController.m */; };
+		42F241A1193858700054FE41 /* GameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F241A0193858700054FE41 /* GameModel.m */; };
+		42F241A41938587E0054FE41 /* PlayerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F241A31938587E0054FE41 /* PlayerModel.m */; };
+		42F241A71938588C0054FE41 /* DeckModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F241A61938588C0054FE41 /* DeckModel.m */; };
+		42F241AA193858970054FE41 /* CardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F241A9193858970054FE41 /* CardModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		425ECEF9194A893A007607C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Storyboard_ipad.storyboard; sourceTree = "<group>"; };
+		425ECEFE194A9716007607C3 /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
+		425ECEFF194A9716007607C3 /* Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Data.m; sourceTree = "<group>"; };
+		425ECF00194A9716007607C3 /* DataDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataDataController.h; sourceTree = "<group>"; };
+		425ECF01194A9716007607C3 /* DataDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataDataController.m; sourceTree = "<group>"; };
+		425ECF02194A9716007607C3 /* DataDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataDetailViewController.h; sourceTree = "<group>"; };
+		425ECF03194A9716007607C3 /* DataDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataDetailViewController.m; sourceTree = "<group>"; };
+		425ECF04194A9716007607C3 /* DataTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataTableViewCell.h; sourceTree = "<group>"; };
+		425ECF05194A9716007607C3 /* DataTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataTableViewCell.m; sourceTree = "<group>"; };
+		425ECF0A194AA5BA007607C3 /* DataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		425ECF0B194AA5BA007607C3 /* DataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
 		4280C8A61934384600BA2570 /* CardHeroes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardHeroes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4280C8A91934384600BA2570 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4280C8AB1934384600BA2570 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,7 +67,6 @@
 		4280C8B81934384600BA2570 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4280C8B91934384600BA2570 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4280C8BC1934384600BA2570 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		4280C8BF1934384600BA2570 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		4280C8C11934384600BA2570 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4280C8C21934384600BA2570 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4280C8C41934384600BA2570 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -55,6 +75,16 @@
 		4280C8D31934384600BA2570 /* CardHeroesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CardHeroesTests-Info.plist"; sourceTree = "<group>"; };
 		4280C8D51934384600BA2570 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4280C8D71934384600BA2570 /* CardHeroesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardHeroesTests.m; sourceTree = "<group>"; };
+		42A9317A19375D7D007A2AC5 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		42A9317B19375D7D007A2AC5 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		42F2419F193858700054FE41 /* GameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameModel.h; sourceTree = "<group>"; };
+		42F241A0193858700054FE41 /* GameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameModel.m; sourceTree = "<group>"; };
+		42F241A21938587E0054FE41 /* PlayerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerModel.h; sourceTree = "<group>"; };
+		42F241A31938587E0054FE41 /* PlayerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerModel.m; sourceTree = "<group>"; };
+		42F241A51938588C0054FE41 /* DeckModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeckModel.h; sourceTree = "<group>"; };
+		42F241A61938588C0054FE41 /* DeckModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeckModel.m; sourceTree = "<group>"; };
+		42F241A8193858970054FE41 /* CardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardModel.h; sourceTree = "<group>"; };
+		42F241A9193858970054FE41 /* CardModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +111,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		421BCC06194AEB5C00A48DBA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				425ECEFE194A9716007607C3 /* Data.h */,
+				425ECEFF194A9716007607C3 /* Data.m */,
+				425ECF00194A9716007607C3 /* DataDataController.h */,
+				425ECF01194A9716007607C3 /* DataDataController.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		421BCC07194AEB6300A48DBA /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				42F2419F193858700054FE41 /* GameModel.h */,
+				42F241A0193858700054FE41 /* GameModel.m */,
+				42F241A21938587E0054FE41 /* PlayerModel.h */,
+				42F241A31938587E0054FE41 /* PlayerModel.m */,
+				42F241A51938588C0054FE41 /* DeckModel.h */,
+				42F241A61938588C0054FE41 /* DeckModel.m */,
+				42F241A8193858970054FE41 /* CardModel.h */,
+				42F241A9193858970054FE41 /* CardModel.m */,
+			);
+			name = Game;
+			sourceTree = "<group>";
+		};
+		421BCC08194AEB7C00A48DBA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				421BCC0A194AEB9600A48DBA /* Data */,
+				421BCC09194AEB9200A48DBA /* Game */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		421BCC09194AEB9200A48DBA /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				4280C8C11934384600BA2570 /* ViewController.h */,
+				4280C8C21934384600BA2570 /* ViewController.m */,
+				42A9317A19375D7D007A2AC5 /* GameViewController.h */,
+				42A9317B19375D7D007A2AC5 /* GameViewController.m */,
+			);
+			name = Game;
+			sourceTree = "<group>";
+		};
+		421BCC0A194AEB9600A48DBA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				425ECF02194A9716007607C3 /* DataDetailViewController.h */,
+				425ECF03194A9716007607C3 /* DataDetailViewController.m */,
+				425ECF04194A9716007607C3 /* DataTableViewCell.h */,
+				425ECF05194A9716007607C3 /* DataTableViewCell.m */,
+				425ECF0A194AA5BA007607C3 /* DataViewController.h */,
+				425ECF0B194AA5BA007607C3 /* DataViewController.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
 		4280C89D1934384600BA2570 = {
 			isa = PBXGroup;
 			children = (
@@ -114,12 +203,10 @@
 		4280C8AF1934384600BA2570 /* CardHeroes */ = {
 			isa = PBXGroup;
 			children = (
-				4280C8B81934384600BA2570 /* AppDelegate.h */,
-				4280C8B91934384600BA2570 /* AppDelegate.m */,
+				421BCC08194AEB7C00A48DBA /* ViewController */,
+				42F2419E193858510054FE41 /* Models */,
 				4280C8BB1934384600BA2570 /* Main_iPhone.storyboard */,
-				4280C8BE1934384600BA2570 /* Main_iPad.storyboard */,
-				4280C8C11934384600BA2570 /* ViewController.h */,
-				4280C8C21934384600BA2570 /* ViewController.m */,
+				425ECEF8194A893A007607C3 /* Storyboard_ipad.storyboard */,
 				4280C8C41934384600BA2570 /* Images.xcassets */,
 				4280C8B01934384600BA2570 /* Supporting Files */,
 			);
@@ -129,6 +216,8 @@
 		4280C8B01934384600BA2570 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4280C8B81934384600BA2570 /* AppDelegate.h */,
+				4280C8B91934384600BA2570 /* AppDelegate.m */,
 				4280C8B11934384600BA2570 /* CardHeroes-Info.plist */,
 				4280C8B21934384600BA2570 /* InfoPlist.strings */,
 				4280C8B51934384600BA2570 /* main.m */,
@@ -153,6 +242,15 @@
 				4280C8D41934384600BA2570 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42F2419E193858510054FE41 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				421BCC07194AEB6300A48DBA /* Game */,
+				421BCC06194AEB5C00A48DBA /* Data */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,10 +329,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4280C8C01934384600BA2570 /* Main_iPad.storyboard in Resources */,
 				4280C8C51934384600BA2570 /* Images.xcassets in Resources */,
 				4280C8BD1934384600BA2570 /* Main_iPhone.storyboard in Resources */,
 				4280C8B41934384600BA2570 /* InfoPlist.strings in Resources */,
+				425ECEFA194A893A007607C3 /* Storyboard_ipad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,7 +351,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42F241A41938587E0054FE41 /* PlayerModel.m in Sources */,
+				425ECF09194A9716007607C3 /* DataTableViewCell.m in Sources */,
+				425ECF07194A9716007607C3 /* DataDataController.m in Sources */,
+				425ECF0C194AA5BA007607C3 /* DataViewController.m in Sources */,
+				42F241AA193858970054FE41 /* CardModel.m in Sources */,
+				42A9317C19375D7D007A2AC5 /* GameViewController.m in Sources */,
 				4280C8C31934384600BA2570 /* ViewController.m in Sources */,
+				425ECF06194A9716007607C3 /* Data.m in Sources */,
+				425ECF08194A9716007607C3 /* DataDetailViewController.m in Sources */,
+				42F241A71938588C0054FE41 /* DeckModel.m in Sources */,
+				42F241A1193858700054FE41 /* GameModel.m in Sources */,
 				4280C8BA1934384600BA2570 /* AppDelegate.m in Sources */,
 				4280C8B61934384600BA2570 /* main.m in Sources */,
 			);
@@ -278,6 +386,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		425ECEF8194A893A007607C3 /* Storyboard_ipad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				425ECEF9194A893A007607C3 /* Base */,
+			);
+			name = Storyboard_ipad.storyboard;
+			sourceTree = "<group>";
+		};
 		4280C8B21934384600BA2570 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,14 +408,6 @@
 				4280C8BC1934384600BA2570 /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		4280C8BE1934384600BA2570 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4280C8BF1934384600BA2570 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		4280C8D41934384600BA2570 /* InfoPlist.strings */ = {
@@ -390,10 +498,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 상현 김 (87SL7SJW84)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CardHeroes/CardHeroes-Prefix.pch";
 				INFOPLIST_FILE = "CardHeroes/CardHeroes-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "152417A0-14C6-4289-9BD7-1F927A161E8D";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -403,10 +515,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 상현 김 (87SL7SJW84)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CardHeroes/CardHeroes-Prefix.pch";
 				INFOPLIST_FILE = "CardHeroes/CardHeroes-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "152417A0-14C6-4289-9BD7-1F927A161E8D";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -470,6 +586,7 @@
 				4280C8DD1934384600BA2570 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4280C8DE1934384600BA2570 /* Build configuration list for PBXNativeTarget "CardHeroesTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +595,7 @@
 				4280C8E01934384600BA2570 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
