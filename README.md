@@ -3,6 +3,8 @@ CardHeroes
 
 Simple TCG.
 
+Using GPL v3 License
+
 Game Part and Dictionary Part.
 
 game part -> for game. viewcontroller, view, models
